@@ -1,0 +1,17 @@
+POST http://localhost:3003/getIssues
+Content-Type: application/json
+
+{
+    "status":"All",
+    "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtYWtAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiaXNBY3RpdmUiOjEsImlzQWRtaW4iOjEsImlhdCI6MTYzMTQ0NzgwN30.37eFuuH2wwr3m3KNtiXvgpEc-l7TZ9Vf30JhdwCV4Ek"
+}
+
+###
+
+POST http://localhost:3003/upvoteIssue
+Content-Type: application/json
+
+{
+    "issueId":"4",
+    "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtYWtAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiaXNBY3RpdmUiOjEsImlzQWRtaW4iOjEsImlhdCI6MTYzMTI5NzExNn0.ypGtXdhh9MCe3B5o_eyTu5CzSILRvoo8f82k9yOmrPo"
+}

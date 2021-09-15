@@ -1,0 +1,8 @@
+POST http://localhost:3003/changeStatus
+Content-Type: application/json
+
+{
+    "id":"14",
+    "status":"Delete",
+    "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtYWtAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiaXNBY3RpdmUiOjEsImlzQWRtaW4iOjEsImlhdCI6MTYzMTI5NzExNn0.ypGtXdhh9MCe3B5o_eyTu5CzSILRvoo8f82k9yOmrPo"
+}

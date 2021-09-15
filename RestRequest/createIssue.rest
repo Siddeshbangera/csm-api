@@ -1,0 +1,13 @@
+POST http://localhost:3003/createIssue
+Content-Type: application/json
+
+{
+    "pincode":"400088",
+    "lat":"lat",
+    "long":"long",
+    "addressOne":"Aqsa beach",
+    "addressTwo":"Andheri",
+    "imageOne":"",
+    "description":"Big pothole near best bus stop, kindly resolve to better commute",
+    "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtYWtAZ21haWwuY29tIiwicGFzc3dvcmQiOiIxMjM0IiwiaXNBY3RpdmUiOjEsImlzQWRtaW4iOjEsImlhdCI6MTYzMTI5NzExNn0.ypGtXdhh9MCe3B5o_eyTu5CzSILRvoo8f82k9yOmrPo"
+}
