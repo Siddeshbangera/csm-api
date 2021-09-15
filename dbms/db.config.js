@@ -1,7 +1,7 @@
 module.exports = {
-    HOST: "localhost",
+    HOST: "database-1.clficyiqbfmd.us-east-2.rds.amazonaws.com",
     USER: "root",
     PORT:"3306",
-    PASSWORD: "1234",
+    PASSWORD: "12345678",
     DB: "cms"
   };
