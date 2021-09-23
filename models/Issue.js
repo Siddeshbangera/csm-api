@@ -25,6 +25,7 @@ Issue.createIssue = (newIssue, result) => {
   let imageOne = newIssue.imageOne;
   let description = newIssue.description;
   let userId = "";
+  let issuestatus= "In Progess";
   User.authenticateJWT(newIssue.jwt)
   .then(user => {
     if(user){
@@ -47,7 +48,7 @@ Issue.createIssue = (newIssue, result) => {
           }
 
           sql.query("INSERT INTO `issue_tb` (`id`, `pincode`, `lat`, `long`,`add1`,`add2`,`image1`,`image3`,`image2`,`status`,`isActive`, `description`) VALUES ?",
-          [[[userId,pincode,lat,long,addressOne,addressTwo,imageOne,"","","In Progress","1",description]]],
+          [[[userId,pincode,lat,long,addressOne,addressTwo,imageOne,"","",issuestatus,"1",description]]],
           (err, res) => {
             if (err) {
               console.log("error: ", err);
